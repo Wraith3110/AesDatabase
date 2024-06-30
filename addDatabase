@@ -1,0 +1,17 @@
+CREATE DATABASE account_manager;
+
+USE account_manager;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE accounts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    application_name VARCHAR(100) NOT NULL,
+    account_name VARCHAR(100) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);
