@@ -1,0 +1,13 @@
+install xampp
+create a new folder and name it accounts_details in xampp directory(localdisk C:) > xampp files > htdocs 
+paste store_accounts and retrieve_accounts in the folder
+run xampp
+start apache server
+start sql server
+go to localhost/phpMyAdmin in the browser
+click on new on the left 
+go to sql on the top 
+paste the commands in the addDatabase.txt file
+click on run
+on another new tab go to localhost/accounts/store-accounts
+site is running
